@@ -9,10 +9,10 @@ module.exports = {
     options: [],
     run: async (client, interaction, lang) => {
         try {
-            const supportServerLink = "https://discord.gg/xQF9f9yUEM";
-            const githubLink = "https://github.com/GlaceYT";
-            const replitLink = "https://replit.com/@GlaceYT";
-            const youtubeLink = "https://www.youtube.com/@GlaceYT";
+            const supportServerLink = "https://discord.gg/WgKwtcGHky";
+            const githubLink = "INVALID";
+            const replitLink = "INVALID";
+            const youtubeLink = "INVALID";
 
             const embed = new EmbedBuilder()
                 .setColor('#b300ff')
