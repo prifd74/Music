@@ -16,16 +16,16 @@ module.exports = {
   nodes: [
         {
       name: "AjieDev - Lavalink [Non SSL]",
-      password: "",
-      host: "lava-v3.ajieblogs.eu.org",
+      password: "https://dsc.gg/ajidevserver",
+      host: "lava-v4.ajieblogs.eu.org",
       port: 80,
       secure: false
     },
     {
       name: "Koi Node V4",
-      password: "NAIGLAVA-dash.techbyte.host",
-      host: "lavahatry4.techbyte.host",
-      port:  3000,
+      password: "youshallnotpass",
+      host: "lavalink.clxud.dev",
+      port:  2333,
       secure: false
     },
     { 
