@@ -15,11 +15,11 @@ module.exports = {
   errorLog: "", 
   nodes: [
         {
-      name: "AjieDev - Lavalink [Non SSL]",
-      password: "https://dsc.gg/ajidevserver",
-      host: "lava-v4.ajieblogs.eu.org",
-      port: 80,
-      secure: false
+           "identifier": "INZEWORLD.COM (DE)",
+            "password": "saher.inzeworld.com",
+            "host": "lava.inzeworld.com",
+            "port": 3128,
+            "secure": false
     },
     {
       name: "Koi Node V4",
