@@ -15,25 +15,11 @@ module.exports = {
   errorLog: "", 
   nodes: [
         {
-           "identifier": "INZEWORLD.COM (DE)",
-            "password": "saher.inzeworld.com",
-            "host": "lava.inzeworld.com",
-            "port": 3128,
+           "identifier": "PERSONAL",
+            "password": "pokemon",
+            "host": "192.99.10.133",
+            "port": 8088,
             "secure": false
     },
-    {
-      name: "Koi Node V4",
-      password: "youshallnotpass",
-      host: "lavalink.clxud.dev",
-      port:  2333,
-      secure: false
-    },
-    { 
-      name: "saher",
-      password: "saher.inzeworld.com",
-      host: "lava.inzeworld.com",
-      port: 3128,
-      secure: false
-    }
   ]
 }
