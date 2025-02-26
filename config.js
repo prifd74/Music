@@ -16,9 +16,9 @@ module.exports = {
   nodes: [
         {
            "identifier": "PERSONAL",
-            "password": "pokemon",
-            "host": "192.99.10.133",
-            "port": 8088,
+            "password": "enteryourcustompass",
+            "host": "180.188.226.76",
+            "port": 7019,
             "secure": false
     },
   ]
