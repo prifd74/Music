@@ -14,12 +14,12 @@ module.exports = {
   embedTimeout: 5, 
   errorLog: "", 
   nodes: [
-        {
-           "identifier": "PERSONAL",
-            "password": "enteryourcustompass",
-            "host": "180.188.226.76",
-            "port": 7019,
-            "secure": false
+       {
+      name: "XX",
+      password: "enteryourcustompass",
+      host: "180.188.226.76",
+      port:  7019,
+      secure: false
     },
   ]
 }
