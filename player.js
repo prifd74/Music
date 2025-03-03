@@ -102,11 +102,11 @@ function initializePlayer(client) {
             .setFooter({ text: `Developed by Avinan and Glace`, iconURL: musicIcons.heartIcon })
             .setTimestamp()
             .setDescription(  
-                `- **Title:** [${track.info.title}](${track.info.uri})\n` +
-                `- **Author:** ${track.info.author || 'Unknown Artist'}\n` +
-                `- **Length:** ${formatDuration(track.info.length)}\n` +
-                `- **Requester:** ${requester}\n` +
-                `- **Source:** ${track.info.sourceName}\n` + '**- Controls :**\n 🔁 `Loop`, ❌ `Disable`, ⏭️ `Skip`, 💎 `Queue`, 🗑️ `Clear`\n ⏹️ `Stop`, ⏸️ `Pause`, ▶️ `Resume`, 🔊 `Vol +`, 🔉 `Vol -`')
+                `- **𝓣𝓲𝓽𝓵𝓮:** [${track.info.title}](${track.info.uri})\n` +
+                `- **𝓐𝓾𝓽𝓱𝓸𝓻:** ${track.info.author || 'Unknown Artist'}\n` +
+                `- **𝓛𝓮𝓷𝓰𝓽𝓱:** ${formatDuration(track.info.length)}\n` +
+                `- **𝑅𝑒𝓆𝓊𝑒𝓈𝓉𝑒𝓇:** ${requester}\n` +
+                `- **𝒮𝑜𝓊𝓇𝒸𝑒:** ${track.info.sourceName}\n` + '**- Controls :**\n 🔁 `Loop`, ❌ `Disable`, ⏭️ `Skip`, 💎 `Queue`, 🗑️ `Clear`\n ⏹️ `Stop`, ⏸️ `Pause`, ▶️ `Resume`, 🔊 `Vol +`, 🔉 `Vol -`')
             .setImage('attachment://musicard.png')
             .setColor('#FF006E');
 
