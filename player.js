@@ -77,14 +77,14 @@ function initializePlayer(client) {
         try {
             const musicard = await Dynamic({
                 thumbnailImage: track.info.thumbnail || 'https://example.com/default_thumbnail.png',
-                backgroundColor: '#070707',
+                backgroundColor: '#FF3BFC',
                 progress: 10,
-                progressColor: '#FF7A00',
-                progressBarColor: '#5F2D00',
+                progressColor: '#FF600A',
+                progressBarColor: '#0A3fFF',
                 name: track.info.title,
-                nameColor: '#FF7A00',
+                nameColor: '#9B02FA',
                 author: track.info.author || 'Unknown Artist',
-                authorColor: '#696969',
+                authorColor: '#000000',
             });
 
             // Save the generated card to a file
