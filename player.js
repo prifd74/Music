@@ -99,7 +99,7 @@ function initializePlayer(client) {
                 iconURL: musicIcons.playerIcon,
                 url: config.SupportServer
             })
-            .setFooter({ text: `Developed by SSRR | Prime Music v1.2`, iconURL: musicIcons.heartIcon })
+            .setFooter({ text: `Developed by Avinan and Glace`, iconURL: musicIcons.heartIcon })
             .setTimestamp()
             .setDescription(  
                 `- **𝐓𝐢𝐭𝐥𝐞:** [${track.info.title}](${track.info.uri})\n` +
