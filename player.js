@@ -76,14 +76,14 @@ function initializePlayer(client) {
 
         try {
             const musicard = await Dynamic({
-                thumbnailImage: track.info.thumbnail || 'https://example.com/default_thumbnail.png',
+                thumbnailImage: track.info.thumbnail  'https://example.com/default_thumbnail.png',
                 backgroundColor: '#3B0D11',
                 progress: 45,
                 progressColor: '#9A031E',
                 progressBarColor: '#E76F51',
                 name: track.info.title,
                 nameColor: '#E63946',
-                author: track.info.author || 'Unknown Artist',
+                author: track.info.author  'Unknown Artist',
                 authorColor: '#F4A261',
             });
 
@@ -99,18 +99,16 @@ function initializePlayer(client) {
                 iconURL: musicIcons.playerIcon,
                 url: config.SupportServer
             })
-            .setFooter({ text: `Developed by Avinan and Glace`, iconURL: musicIcons.heartIcon })
+            .setFooter({ text: `Developed by SSRR | Prime Music v1.2`, iconURL: musicIcons.heartIcon })
             .setTimestamp()
-           .setDescription(  
-                  `- **𝓣𝓲𝓽𝓵𝓮:** [${track.info.title}](${track.info.uri})\n` +
-                  `- **𝓐𝓾𝓽𝓱𝓸𝓻:** ${track.info.author || 'Unknown Artist'}\n` +
-                  `- **𝓛𝓮𝓷𝓰𝓽𝓱:** ${formatDuration(track.info.length)}\n` +
-                  `- **𝑅𝑒𝓆𝓊𝑒𝓈𝓉𝑒𝓇:** ${requester}\n` +
-                  `- ** Lyrics:** ${track.requester ? `<@${track.requester.id}>` : "Unknown"}` + "\n\n**Lyrics**: Fetching lyrics...";`
-                  - **𝒮𝑜𝓊𝓇𝒸𝑒:** ${track.info.sourceName}\n` + '**- Controls :**\n 🔁 `Loop`, ❌ `Disable`, ⏭️ `Skip`, 💎 `Queue`, 🗑️ `Clear`\n ⏹️ `Stop`, ⏸️ `Pause`, ▶️ `Resume`, 🔊 `Vol +`, 🔉 `Vol -`')`
+            .setDescription(  
+                `- **𝐓𝐢𝐭𝐥𝐞:** [${track.info.title}](${track.info.uri})\n` +
+                `- **𝑨𝒖𝒕𝒉𝒐𝒓:** ${track.info.author || 'Unknown Artist'}\n` +
+                `- **𝑳𝒆𝒏𝒈𝒕𝒉:** ${formatDuration(track.info.length)}\n` +
+                `- **𝑹𝒆𝒒𝒖𝒆𝒔𝒕e𝒓:** ${requester}\n` +
+                `- **𝑺𝒐𝒖𝒓𝒄𝒆:** ${track.info.sourceName}\n` + '**- Controls :**\n 🔁 `Loop`, ❌ `Disable`, ⏭️ `Skip`, 📜 `Queue`, 🗑️ `Clear`\n ⏹️ `Stop`, ⏸️ `Pause`, ▶️ `Resume`, 🔊 `Vol +`, 🔉 `Vol -`')
             .setImage('attachment://musicard.png')
-            .setColor('#FF006E');`
-)
+            .setColor('#FF7A00');
 
           
             const actionRow1 = createActionRow1(false);
