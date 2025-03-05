@@ -106,7 +106,7 @@ function initializePlayer(client) {
                 `- **𝓐𝓾𝓽𝓱𝓸𝓻:** ${track.info.author || 'Unknown Artist'}\n` +
                 `- **𝓛𝓮𝓷𝓰𝓽𝓱:** ${formatDuration(track.info.length)}\n` +
                 `- **𝑅𝑒𝓆𝓊𝑒𝓈𝓉𝑒𝓇:** ${requester}\n` +
-                `- ** Lyrics:** <@${track.requester.id}>` : "Unknown"}` + "\n\n**Lyrics**: Fetching lyrics...";` +
+                `- ** Lyrics:** <{@${track.requester.id}>` : "Unknown"}` + "\n\n**Lyrics**: Fetching lyrics...";}` +
                 `- **𝒮𝑜𝓊𝓇𝒸𝑒:** ${track.info.sourceName}\n` + '**- Controls :**\n 🔁 `Loop`, ❌ `Disable`, ⏭️ `Skip`, 💎 `Queue`, 🗑️ `Clear`\n ⏹️ `Stop`, ⏸️ `Pause`, ▶️ `Resume`, 🔊 `Vol +`, 🔉 `Vol -`')
             .setImage('attachment://musicard.png')
             .setColor('#FF006E');
