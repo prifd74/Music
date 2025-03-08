@@ -31,7 +31,7 @@ async function sendMessageWithPermissionsCheck(channel, embed, attachment, actio
     } catch (error) {
         console.error("Error sending message:", error.message);
         const errorEmbed = new EmbedBuilder()
-            .setColor('#FF0000')
+            .setColor('##38000A')
             .setDescription("⚠️ **Unable to send message. Check bot permissions.**");
         await channel.send({ embeds: [errorEmbed] });
     }
