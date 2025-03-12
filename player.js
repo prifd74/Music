@@ -111,7 +111,7 @@ function initializePlayer(client) {
                 `- **𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐫:** ${requester}\n` +
                 `- **𝐒𝐨𝐮𝐫𝐜𝐞:** ${track.info.sourceName}\n` + '**- Controls :**\n 🔁 `Loop`, ❌ `Disable`, ⏭️ `Skip`, 🎤 `Lyrics`, 🗑️ `Clear`\n ⏹️ `Stop`, ⏸️ `Pause`, ▶️ `Resume`, 🔊 `Vol +`, 🔉 `Vol -`')
             .setImage('attachment://musicard.png')
-            .setColor('#FF7A00');
+            .setColor('#CA1F7B');
 
             const actionRow1 = createActionRow1(false);
             const actionRow2 = createActionRow2(false);
