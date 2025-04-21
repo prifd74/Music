@@ -19,8 +19,8 @@ module.exports = {
      {
       name: "Avinan",
       password: "avinan",
-      host: "new-york-node-1.vortexcloud.xyz",
-      port:  5008,
+      host: "helya.pylex.xyz",
+      port:  11012,
       secure: false
     }
   ]
