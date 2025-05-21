@@ -20,7 +20,7 @@ module.exports = {
       name: "Avinan",
       password: "avinan",
       host: "207.231.109.91",
-      port:  10030,
+      port:  20009,
       secure: false
     }
   ]
